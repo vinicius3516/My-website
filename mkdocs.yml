@@ -1,0 +1,35 @@
+site_name: ""
+theme:
+  name: material
+  logo: assets/logo.svg
+  palette:
+    primary: 'teal'  # Base para nossa cor personalizada
+    accent: 'blue'
+  font:
+    text: Poppins
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Início: index.md
+  - Redes:
+      - Conceitos: redes/conceitos.md
+  - Linux:
+      - Comandos: git-github/comandos.md
+  - Git e GitHub:
+      - Comandos: git-github/comandos.md
+      - Conceitos: git-github/conceitos.md
+  - Docker:
+      - Comandos úteis: docker/comandos.md
+  - Kubernetes:
+      - Conceitos: kubernetes/conceitos.md
+  - GitHub Actions:
+      - Exemplos práticos: github-actions/exemplos.md
+
+extra_css:
+  - styles/extra.css
