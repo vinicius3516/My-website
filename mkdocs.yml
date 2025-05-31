@@ -1,35 +1,45 @@
+# Name of the site shown in the header and browser tab
 site_name: ""
+
 theme:
   name: material
   logo: assets/logo.svg
+
   palette:
-    primary: 'teal'  # Base para nossa cor personalizada
+    # Primary and accent colors used in the theme
+    primary: 'teal'
     accent: 'blue'
+
   font:
+    # Font used for regular text and code blocks
     text: Poppins
     code: Fira Code
+
   features:
-    - navigation.instant
-    - navigation.tabs
-    - navigation.top
-    - navigation.expand
-    - content.code.copy
+    # UI features from Material for MkDocs
+    - navigation.instant      # Instant page transitions without full reload
+    - navigation.tabs         # Navigation tabs at the top
+    - navigation.top          # Scroll to top on new navigation
+    - navigation.expand       # Keep navigation tree expanded
+    - content.code.copy       # Add "copy" buttons to code blocks
 
+# Navigation structure shown in the sidebar/menu
 nav:
-  - Início: index.md
-  - Redes:
-      - Conceitos: redes/conceitos.md
+  - Home: index.md
+  - Networks:
+      - Concepts: redes/conceitos.md
   - Linux:
-      - Comandos: git-github/comandos.md
-  - Git e GitHub:
-      - Comandos: git-github/comandos.md
-      - Conceitos: git-github/conceitos.md
+      - Commands: linux/comandos.md        # Fixed path from 'git-github' to 'linux'
+  - Git & GitHub:
+      - Commands: git-github/comandos.md
+      - Concepts: git-github/conceitos.md
   - Docker:
-      - Comandos úteis: docker/comandos.md
+      - Useful Commands: docker/comandos.md
   - Kubernetes:
-      - Conceitos: kubernetes/conceitos.md
+      - Concepts: kubernetes/conceitos.md
   - GitHub Actions:
-      - Exemplos práticos: github-actions/exemplos.md
+      - Practical Examples: github-actions/exemplos.md
 
+# Extra custom CSS file
 extra_css:
   - styles/extra.css
