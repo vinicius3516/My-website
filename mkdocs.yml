@@ -1,5 +1,6 @@
 # Name of the site shown in the header and browser tab
 site_name: ""
+site_url: https://vinnycloud.com.br/
 
 theme:
   name: material
