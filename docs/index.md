@@ -4,7 +4,7 @@
   anotações técnicas, boas práticas, automações com ferramentas como Docker, Kubernetes, GitHub Actions e mais. 
   Tudo que aprendo, aplico e compartilho.
 
-<a class="bnt-hero" href="http://127.0.0.1:8000/#contato">Saiba Mais</a>
+<a class="bnt-hero" href="https://vinnycloud.com.br/#contato">Saiba Mais</a>
 ---
 
 <!-- About Section -->
@@ -41,7 +41,7 @@ Minha expertise inclui:
   <h3>AWS SAA - C03</h3>
   <p>Amazon Web Services</p>
   <p>Em andamento...</p>
-  <a class="creden" href="https://google.com">Ver Credencial</a>
+  <a class="creden" href="https://vinnycloud.com.br/#certificacoes">Ver Credencial</a>
 </div>
 
 <div class="card">
@@ -73,7 +73,7 @@ Minha expertise inclui:
   <h3>GitHub Actions</h3>
   <p>DevOps-Pro</p>
   <p>Em andamento...</p>
-  <a class="creden" href="https://vinnycloud.com.br">Ver Credencial</a>
+  <a class="creden" href="https://vinnycloud.com.br/#certificacoes">Ver Credencial</a>
 </div>
 
 </div>
