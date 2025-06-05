@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://vinnycloud.com.br/git-github/comandos/">
       
       
-        <link rel="prev" href="../../linux/comandos/">
+        <link rel="prev" href="../conceitos/">
       
       
-        <link rel="next" href="../conceitos/">
+        <link rel="next" href="../../docker/comandos/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Commands - </title>
+        <title>Comandos - </title>
       
     
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#conteudo-em-breve" class="md-skip">
+        <a href="#documentacao-git-github" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Commands
+              Comandos
             
           </span>
         </div>
@@ -233,7 +233,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../conceitos/" class="md-tabs__link">
           
   
   Git & GitHub
@@ -515,6 +515,26 @@
                 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../conceitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conceitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -526,36 +546,346 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Comandos
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Commands
+    Comandos
   </span>
   
 
       </a>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../conceitos/" class="md-nav__link">
         
-  
-  <span class="md-ellipsis">
-    Concepts
-  </span>
-  
 
-      </a>
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#indice-remissivo" class="md-nav__link">
+    Índice Remissivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-essenciais" class="md-nav__link">
+    Comandos Essenciais
+  </a>
+  
+    <nav class="md-nav" aria-label="Comandos Essenciais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-init" class="md-nav__link">
+    git init
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-clone" class="md-nav__link">
+    git clone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-status" class="md-nav__link">
+    git status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerenciamento-de-branches" class="md-nav__link">
+    Gerenciamento de Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Gerenciamento de Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-checkout" class="md-nav__link">
+    git checkout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-branch" class="md-nav__link">
+    git branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-merge" class="md-nav__link">
+    git merge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-rebase" class="md-nav__link">
+    git rebase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabalhando-com-alteracoes" class="md-nav__link">
+    Trabalhando com Alterações
+  </a>
+  
+    <nav class="md-nav" aria-label="Trabalhando com Alterações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-add" class="md-nav__link">
+    git add
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit" class="md-nav__link">
+    git commit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convencao-de-commits" class="md-nav__link">
+    Convenção de Commits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boas-praticas-para-mensagens" class="md-nav__link">
+    Boas Práticas para Mensagens:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-stash" class="md-nav__link">
+    git stash
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sincronizacao-com-remoto" class="md-nav__link">
+    Sincronização com Remoto
+  </a>
+  
+    <nav class="md-nav" aria-label="Sincronização com Remoto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-fetch" class="md-nav__link">
+    git fetch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-pull" class="md-nav__link">
+    git pull
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-push" class="md-nav__link">
+    git push
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-remote" class="md-nav__link">
+    git remote
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sobrescrever-o-url-de-origin" class="md-nav__link">
+    Sobrescrever o URL de “origin”
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remover-e-recriar-o-origin" class="md-nav__link">
+    Remover e recriar o “origin”
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correcoes-e-historico" class="md-nav__link">
+    Correções e Histórico
+  </a>
+  
+    <nav class="md-nav" aria-label="Correções e Histórico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-reset" class="md-nav__link">
+    git reset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-revert" class="md-nav__link">
+    git revert
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-log" class="md-nav__link">
+    git log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-diff" class="md-nav__link">
+    git diff
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-devops" class="md-nav__link">
+    Workflow DevOps
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho-padrao" class="md-nav__link">
+    Fluxo de Trabalho Padrão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-avancados" class="md-nav__link">
+    Comandos Avançados
+  </a>
+  
+    <nav class="md-nav" aria-label="Comandos Avançados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-bisect" class="md-nav__link">
+    git bisect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-reflog" class="md-nav__link">
+    git reflog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cherry-pick" class="md-nav__link">
+    cherry-pick
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boas-praticas-devops" class="md-nav__link">
+    Boas Práticas DevOps
+  </a>
+  
+    <nav class="md-nav" aria-label="Boas Práticas DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anti-patterns" class="md-nav__link">
+    ❌ Anti-Patterns
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -777,6 +1107,314 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#indice-remissivo" class="md-nav__link">
+    Índice Remissivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-essenciais" class="md-nav__link">
+    Comandos Essenciais
+  </a>
+  
+    <nav class="md-nav" aria-label="Comandos Essenciais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-init" class="md-nav__link">
+    git init
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-clone" class="md-nav__link">
+    git clone
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-status" class="md-nav__link">
+    git status
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gerenciamento-de-branches" class="md-nav__link">
+    Gerenciamento de Branches
+  </a>
+  
+    <nav class="md-nav" aria-label="Gerenciamento de Branches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-checkout" class="md-nav__link">
+    git checkout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-branch" class="md-nav__link">
+    git branch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-merge" class="md-nav__link">
+    git merge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-rebase" class="md-nav__link">
+    git rebase
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trabalhando-com-alteracoes" class="md-nav__link">
+    Trabalhando com Alterações
+  </a>
+  
+    <nav class="md-nav" aria-label="Trabalhando com Alterações">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-add" class="md-nav__link">
+    git add
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit" class="md-nav__link">
+    git commit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#convencao-de-commits" class="md-nav__link">
+    Convenção de Commits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#boas-praticas-para-mensagens" class="md-nav__link">
+    Boas Práticas para Mensagens:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-stash" class="md-nav__link">
+    git stash
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sincronizacao-com-remoto" class="md-nav__link">
+    Sincronização com Remoto
+  </a>
+  
+    <nav class="md-nav" aria-label="Sincronização com Remoto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-fetch" class="md-nav__link">
+    git fetch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-pull" class="md-nav__link">
+    git pull
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-push" class="md-nav__link">
+    git push
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-remote" class="md-nav__link">
+    git remote
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sobrescrever-o-url-de-origin" class="md-nav__link">
+    Sobrescrever o URL de “origin”
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remover-e-recriar-o-origin" class="md-nav__link">
+    Remover e recriar o “origin”
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correcoes-e-historico" class="md-nav__link">
+    Correções e Histórico
+  </a>
+  
+    <nav class="md-nav" aria-label="Correções e Histórico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-reset" class="md-nav__link">
+    git reset
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-revert" class="md-nav__link">
+    git revert
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-log" class="md-nav__link">
+    git log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-diff" class="md-nav__link">
+    git diff
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-devops" class="md-nav__link">
+    Workflow DevOps
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fluxo-de-trabalho-padrao" class="md-nav__link">
+    Fluxo de Trabalho Padrão
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comandos-avancados" class="md-nav__link">
+    Comandos Avançados
+  </a>
+  
+    <nav class="md-nav" aria-label="Comandos Avançados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#git-bisect" class="md-nav__link">
+    git bisect
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-reflog" class="md-nav__link">
+    git reflog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cherry-pick" class="md-nav__link">
+    cherry-pick
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#boas-praticas-devops" class="md-nav__link">
+    Boas Práticas DevOps
+  </a>
+  
+    <nav class="md-nav" aria-label="Boas Práticas DevOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#anti-patterns" class="md-nav__link">
+    ❌ Anti-Patterns
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -790,7 +1428,275 @@
                   
 
 
-<h1 id="conteudo-em-breve">Conteudo em breve!!!</h1>
+<h1 id="documentacao-git-github">Documentação Git &amp; GitHub</h1>
+<p><em>Este guia contém os principais comandos Git utilizados no dia a dia de um DevOps, com descrição, uso prático, finalidade, cenários comuns e melhores práticas.</em></p>
+<h2 id="indice-remissivo">Índice Remissivo</h2>
+<ul>
+<li><a href="#comandos-essenciais">Comandos Essenciais</a></li>
+<li><a href="#gerenciamento-de-branches">Gerenciamento de Branches</a></li>
+<li><a href="#trabalhando-com-alterações">Trabalhando com Alterações</a></li>
+<li><a href="#sincronização-com-remoto">Sincronização com Remoto</a></li>
+<li><a href="#correções-e-histórico">Correções e Histórico</a></li>
+<li><a href="#workflow-devops">Workflow DevOps</a></li>
+<li><a href="#comandos-avançados">Comandos Avançados</a></li>
+<li><a href="#boas-práticas-devops">Boas Práticas DevOps</a></li>
+<li><a href="#integração-com-ferramentas-devops">Integração com Ferramentas DevOps</a></li>
+</ul>
+<h2 id="comandos-essenciais">Comandos Essenciais</h2>
+<h3 id="git-init">git init</h3>
+<p><strong>Descrição:</strong> Inicia o git no repositorio.</p>
+<pre><code class="language-bash">git init
+</code></pre>
+<hr />
+<h3 id="git-clone">git clone</h3>
+<p><strong>Descrição:</strong> Clona um repositório remoto para sua máquina local.</p>
+<pre><code class="language-bash">git clone git@github.com:user/repo.git
+</code></pre>
+<hr />
+<h3 id="git-status">git status</h3>
+<p><strong>Descrição:</strong> Exibe estado do diretório de trabalho e área de staging.</p>
+<pre><code class="language-bash">git status
+</code></pre>
+<p><strong>Finalidade:</strong> Verificar alterações pendentes e estado atual<br />
+<strong>Cenário:</strong> Antes de iniciar novas modificações</p>
+<h2 id="gerenciamento-de-branches">Gerenciamento de Branches</h2>
+<h3 id="git-checkout">git checkout</h3>
+<p><strong>Descrição:</strong> Alterna entre branches ou cria nova branch.</p>
+<pre><code class="language-bash">git checkout nome-da-branch
+</code></pre>
+<details><summary>Variações</summary>
+
+
+<pre><code class="language-bash">git checkout -b nome-da-nova-branch  # Cria e troca para nova branch
+git checkout .  # Desfaz alterações não commitadas
+</code></pre>
+
+</details>
+
+<hr />
+<h3 id="git-branch">git branch</h3>
+<p><strong>Descrição:</strong> Gerencia branches locais.</p>
+<pre><code class="language-bash">git branch  # Lista branches
+git branch -d feature-x  # Deleta branch local
+git push origin --delete &lt;nome-da-branch&gt; # Deleta branch remota
+</code></pre>
+<hr />
+<h3 id="git-merge">git merge</h3>
+<p><strong>Descrição:</strong> Integra alterações de uma branch à atual.</p>
+<pre><code class="language-bash">git merge feature-branch
+</code></pre>
+<hr />
+<h3 id="git-rebase">git rebase</h3>
+<p><strong>Descrição:</strong> Reescreve histórico de commits.</p>
+<pre><code class="language-bash">git rebase main
+</code></pre>
+<details><summary>Variações</summary>
+
+
+<pre><code class="language-bash">git rebase --abort  # Cancela rebase
+git rebase --continue  # Continua após resolver conflitos
+</code></pre>
+
+</details>
+<p>⚠️ Cuidado: Nunca usar rebase em branches compartilhadas</p>
+<h2 id="trabalhando-com-alteracoes">Trabalhando com Alterações</h2>
+<h3 id="git-add">git add</h3>
+<p><strong>Descrição:</strong> Adiciona mudanças ao staging.</p>
+<pre><code class="language-bash">git add .
+</code></pre>
+<details><summary>Variações</summary>
+
+
+<pre><code class="language-bash">git add -p  # Adiciona interativamente
+
+git add &lt;nome-do-arquivo&gt;  # Adiciona um arquivo específico
+</code></pre>
+
+</details>
+
+<hr />
+<h3 id="git-commit">git commit</h3>
+<p><strong>Descrição:</strong> Salva snapshot do staging.</p>
+<pre><code class="language-bash">git commit -m &quot;feat: adiciona nova funcionalidade&quot;
+</code></pre>
+<details><summary>Variações</summary>
+
+
+<pre><code class="language-bash">git commit --amend  # Edita último commit
+</code></pre>
+
+</details>
+
+<h3 id="convencao-de-commits">Convenção de Commits</h3>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>feat:</td>
+<td>Nova funcionalidade</td>
+</tr>
+<tr>
+<td>fix:</td>
+<td>Correção de bug</td>
+</tr>
+<tr>
+<td>docs:</td>
+<td>Documentação</td>
+</tr>
+<tr>
+<td>ci:</td>
+<td>Mudanças em CI/CD</td>
+</tr>
+<tr>
+<td>refactor:</td>
+<td>Refatoração sem mudança funcional</td>
+</tr>
+</tbody>
+</table>
+<h3 id="boas-praticas-para-mensagens">Boas Práticas para Mensagens:</h3>
+<blockquote>
+<p>Comece com o tipo + : + espaço
+(feat: , fix: , etc)</p>
+<p>Use verbo no imperativo (presente):<br>
+✔️ "adiciona", "corrige", "implementa"<br>
+❌ "adicionado", "correção", "implementei"</p>
+<p>Seja específico mas conciso:<br>
+✔️ fix: corrige parsing de datas no formato ISO-8601<br>
+❌ fix: arruma problema com datas</p>
+<p>Mencione o componente afetado:<br>
+✔️ refactor: otimiza queries do módulo de relatórios<br>
+❌ refactor: melhora performance</p>
+</blockquote>
+<hr />
+<h3 id="git-stash">git stash</h3>
+<p><strong>Descrição:</strong> Guarda temporariamente alterações.</p>
+<pre><code class="language-bash">git stash
+</code></pre>
+<details><summary>Variações</summary>
+
+<pre><code class="language-bash">git stash pop  # Restaura último stash
+git stash list  # Lista stashes
+</code></pre>
+
+</details>
+
+<hr />
+<h2 id="sincronizacao-com-remoto">Sincronização com Remoto</h2>
+<h3 id="git-fetch">git fetch</h3>
+<p><strong>Descrição:</strong> Atualiza referências locais sobre o remoto.</p>
+<pre><code class="language-bash">git fetch origin
+</code></pre>
+<h3 id="git-pull">git pull</h3>
+<p><strong>Descrição:</strong> Sincroniza alterações remotas.</p>
+<pre><code class="language-bash">git pull --rebase origin main
+</code></pre>
+<h3 id="git-push">git push</h3>
+<p><strong>Descrição:</strong> Envia commits locais para remoto.</p>
+<pre><code class="language-bash">git push -u origin feature-x
+</code></pre>
+<details><summary>Variações</summary>
+
+
+<pre><code class="language-bash">git push --force-with-lease  # Alternativa segura ao force push
+git push origin :branch-to-delete  # Deleta branch remota
+</code></pre>
+
+</details>
+
+<h3 id="git-remote">git remote</h3>
+<p><strong>Descrição:</strong> Gerencia conexões remotas.</p>
+<pre><code class="language-bash">git remote -v  # Lista repositórios remotos
+</code></pre>
+<h3 id="sobrescrever-o-url-de-origin">Sobrescrever o URL de “origin”</h3>
+<p><strong>Descrição:</strong> Se você só precisa corrigir o endereço de origin, use:</p>
+<pre><code class="language-bash">git remote set-url origin git@github.com:SEU-USUARIO/SEU-REPO.git
+</code></pre>
+<p>Isso muda o URL, sem precisar remover o remote. </p>
+<blockquote>
+<p>Lembre-se de subistituir &gt;&gt; 'SEU-USUARIO/SEU-REPO'</p>
+</blockquote>
+<h3 id="remover-e-recriar-o-origin">Remover e recriar o “origin”</h3>
+<p>Se quiser partir de zero:</p>
+<pre><code class="language-bash">git remote remove origin
+git remote add origin git@github.com:SEU-USUARIO/SEU-REPO.git
+</code></pre>
+<h2 id="correcoes-e-historico">Correções e Histórico</h2>
+<h3 id="git-reset">git reset</h3>
+<p><strong>Descrição:</strong> Desfaz commits/alterações.</p>
+<pre><code class="language-bash">git reset --soft HEAD~1
+</code></pre>
+<h3 id="git-revert">git revert</h3>
+<p><strong>Descrição:</strong> Desfaz alterações com novo commit.</p>
+<pre><code class="language-bash">git revert abcd1234
+</code></pre>
+<h3 id="git-log">git log</h3>
+<p><strong>Descrição:</strong> Exibe histórico de commits.</p>
+<pre><code class="language-bash">git log --graph --oneline --all
+</code></pre>
+<h3 id="git-diff">git diff</h3>
+<p><strong>Descrição:</strong> Mostra diferenças entre versões.</p>
+<pre><code class="language-bash">git diff --staged  # Alterações em staged
+</code></pre>
+<h2 id="workflow-devops">Workflow DevOps</h2>
+<h3 id="fluxo-de-trabalho-padrao">Fluxo de Trabalho Padrão</h3>
+<p><strong>Passo a Passo</strong></p>
+<p>Atualizar branch principal:</p>
+<pre><code class="language-bash">git checkout main
+git pull --rebase
+</code></pre>
+<p>Criar feature branch:</p>
+<pre><code class="language-bash">git checkout -b feature/xyz
+</code></pre>
+<p>Desenvolver e commitar:</p>
+<pre><code class="language-bash">git add .
+git commit -m &quot;feat: add feature xyz&quot;
+</code></pre>
+<p>Sincronizar com remote:</p>
+<pre><code class="language-bash">git push -u origin feature/xyz
+</code></pre>
+<p>Abrir Pull Request (GitHub UI)</p>
+<p>Após merge:</p>
+<pre><code class="language-bash">git checkout main
+git pull
+git branch -d feature/xyz
+</code></pre>
+<h2 id="comandos-avancados">Comandos Avançados</h2>
+<h3 id="git-bisect">git bisect</h3>
+<p><strong>Descrição:</strong> Busca binária para encontrar bug.</p>
+<pre><code class="language-bash">git bisect start
+git bisect bad HEAD
+git bisect good v1.0
+</code></pre>
+<h3 id="git-reflog">git reflog</h3>
+<p><strong>Descrição:</strong> Mostra histórico de referências.</p>
+<pre><code class="language-bash">git reflog  # Recupera branches/commits perdidos
+</code></pre>
+<p><strong>Troubleshooting</strong></p>
+<pre><code class="language-bash"># Desfazer merge conflituoso:
+git merge --abort
+
+# Limpar branches locais obsoletas:
+git fetch -p &amp;&amp; git branch -vv | grep ': gone]' | awk '{print $1}' | xargs git branch -D
+</code></pre>
+<h3 id="cherry-pick">cherry-pick</h3>
+<p><strong>Descrição:</strong> Copia um commit específico para a branch atual. Útil em hotfixes..</p>
+<pre><code>git cherry-pick &lt;commit&gt;
+</code></pre>
+<h2 id="boas-praticas-devops">Boas Práticas DevOps</h2>
+<h3 id="anti-patterns">❌ Anti-Patterns</h3>
+<ul>
+<li>Commitar diretamente na main</li>
+<li>Force push em branches compartilhadas</li>
+<li>Mensagens genéricas ("Update file")</li>
+<li>Ignorar .gitignore (commitar secrets/temporários)</li>
+</ul>
+<hr />
+<p><em>Documentação atualizada em: 2025-06-04</em></p>
 
 
 
