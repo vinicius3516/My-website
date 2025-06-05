@@ -1,5 +1,4 @@
-/* === ESTRUTURA DE LAYOUT === */
-
+/* === GLOBAL LAYOUT STRUCTURE === */
 .cert-grid,
 .cont-card {
   display: grid;
@@ -8,13 +7,12 @@
   margin-top: 1rem;
 }
 
-/* Corrige erro de seletor anterior */
+/* === FIX FOR .cont-card OVERRIDE === */
 .cont-card {
   margin-top: 1rem;
 }
 
-/* === ESTILO DO CABEÇALHO E MENU === */
-
+/* === HEADER AND MENU STYLES === */
 .md-header,
 .md-tabs {
   background-color: #005f6b;
@@ -40,34 +38,69 @@
   font-size: 16px;
 }
 
-
-
 .md-sidebar__scrollwrap {
   scrollbar-gutter: auto;
   overflow-y: auto;
 }
 
-/* === TÍTULOS === */
+/* === SECTION TITLES === */
+
+.md-content__inner{
+
+
+  h1 {
+    margin: 0;
+    font-weight: 700;
+    color: #373737;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+
+  .bnt-hero{
+    display: flex;
+    padding: 5px 20px;
+    background-color: #009e87;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    margin: 0;
+    font-size: 16px;
+    max-width: 131px;
+  }
+
+  .bnt-hero:hover {
+    background-color: transparent;
+    border-color: #009e87 !important;
+    color: #009e87;
+    transform: translateY(-2px);
+  }
+
+}
+
 
 h2 {
   margin: 0;
   text-align: center;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 24px;
   color: #373737;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: #009e87;
-  margin: 2px auto 0;
-}
 
-/* === ESTILO DOS CARDS === */
-
+/* === CARD STYLES === */
 .card,
 .card-project {
   background-color: #f8f9fa;
@@ -79,6 +112,13 @@ h2::after {
   padding: 1rem;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
+
+  .creden {
+    text-align: center;
+    color: #009e87;
+    font-weight: 700;
+    font-size: 16px;
+  }
 }
 
 .card:hover,
@@ -96,7 +136,7 @@ h2::after {
 
 .card p,
 .card-project p {
-  margin: 0.5rem 0 0;
+  margin: 5px;
   font-size: 14px;
   color: #6c757d;
 }
@@ -110,8 +150,7 @@ h2::after {
   border-radius: 8px;
 }
 
-/* === TEXTO GERAL === */
-
+/* === PARAGRAPH AND LIST STYLES === */
 p {
   font-size: 16px;
   line-height: 1.6;
@@ -125,8 +164,7 @@ li {
   color: #555;
 }
 
-/* === RESPONSIVIDADE === */
-
+/* === RESPONSIVENESS FOR GRID AND HEADER === */
 @media screen and (max-width: 768px) {
   .cert-grid,
   .cont-card {
@@ -147,45 +185,46 @@ li {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 76.1875em) {
-    .md-nav--primary .md-nav__title[for=__drawer] {
-        background-color: #005f6b;
-        color: var(--md-primary-bg-color);
-        font-weight: 700;
-    } /* Fechamento adicionado aqui */
 
-    .md-nav--primary .md-nav__title .md-logo {
-        align-items: center;
-    }
+/* === NAVIGATION MENU COLOR FIXES === */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary .md-nav__title[for=__drawer] {
+    background-color: #005f6b;
+    color: var(--md-primary-bg-color);
+    font-weight: 700;
+  }
+
+  .md-nav--primary .md-nav__title .md-logo {
+    align-items: center;
+  }
 }
 
+/* === CUSTOM COLOR VARIABLES === */
 :root {
-  /* Cores principais */
+  /* Primary brand colors */
   --md-primary-fg-color: #005f6b;
   --md-primary-fg-color--light: #007e8c;
   --md-primary-fg-color--dark: #00434d;
-  
-  /* Cores de destaque */
+
+  /* Accent colors */
   --md-accent-fg-color: #4285f4;
 }
 
-/* Aplicar ao cabeçalho */
+/* === APPLY COLORS TO MAIN ELEMENTS === */
 .md-header {
   background-color: var(--md-primary-fg-color);
 }
 
-/* Aplicar às abas */
 .md-tabs {
   background-color: var(--md-primary-fg-color--dark);
 }
 
-/* Aplicar ao menu lateral */
 .md-nav--primary .md-nav__title[for=__drawer] {
   background-color: var(--md-primary-fg-color);
   color: white;
 }
 
-/* Botões e elementos interativos */
+/* === LINKS AND SUMMARY ELEMENT STYLES === */
 .md-typeset a {
   color: var(--md-accent-fg-color);
 }
@@ -194,26 +233,21 @@ li {
   color: var(--md-primary-fg-color--light);
 }
 
-.md-typeset  summary:not(.focus-visible)  {
+.md-typeset summary:not(.focus-visible) {
   background-color: #009e87;
   padding: 12px;
   color: #fff;
 }
+
 summary:before {
   display: none;
 }
 
-.md-typeset details{
-    border-color: #009e87;
+.md-typeset details {
+  border-color: #009e87;
 }
 
-
-
-
-
-/* Estilo geral para a seção */
-
-
+/* === DECORATION FOR SECTION HEADERS === */
 .section-title::after {
   content: "";
   display: block;
@@ -223,7 +257,7 @@ summary:before {
   margin: 8px auto 0;
 }
 
-/* Container dos cards */
+/* === CONTACT CARDS CONTAINER === */
 .contact-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -232,7 +266,7 @@ summary:before {
   margin: 0 auto;
 }
 
-/* Estilo de cada card */
+/* === CONTACT CARD STYLE === */
 .contact-card {
   display: flex;
   align-items: center;
@@ -253,7 +287,7 @@ summary:before {
   background-color: #e6f4f7;
 }
 
-/* Ícone do card */
+/* === CONTACT CARD ICON STYLES === */
 .card-icon {
   width: 60px;
   height: 60px;
@@ -272,7 +306,7 @@ summary:before {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
-/* Conteúdo do card */
+/* === CONTACT CARD TEXT === */
 .card-content h3 {
   margin: 0 0 5px 0;
   font-size: 18px;
@@ -286,24 +320,45 @@ summary:before {
   color: #6c757d;
 }
 
-/* Responsividade */
+/* === RESPONSIVENESS FOR CONTACT CARDS === */
 @media (max-width: 768px) {
   .contact-cards {
     grid-template-columns: 1fr;
   }
-  
+
   .contact-card {
     padding: 15px;
   }
-  
+
   .card-icon {
     width: 50px;
     height: 50px;
     margin-right: 15px;
   }
-  
+
   .card-icon img {
     width: 25px;
     height: 25px;
   }
 }
+
+/* === FOOTER CUSTOMIZATION === */
+.md-footer-meta__inner {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  min-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .2rem;
+  text-align: center;
+  align-items: center;
+}
+

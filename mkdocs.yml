@@ -32,8 +32,8 @@ nav:
   - Linux:
       - Commands: linux/comandos.md        # Fixed path from 'git-github' to 'linux'
   - Git & GitHub:
-      - Commands: git-github/comandos.md
-      - Concepts: git-github/conceitos.md
+      - Conceitos: git-github/conceitos.md
+      - Comandos: git-github/comandos.md
   - Docker:
       - Useful Commands: docker/comandos.md
   - Kubernetes:
