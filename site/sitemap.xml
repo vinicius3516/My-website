@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://vinnycloud.com.br/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/docker/comandos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/git-github/comandos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/git-github/conceitos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/github-actions/exemplos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/kubernetes/conceitos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/linux/comandos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://vinnycloud.com.br/redes/conceitos/</loc>
-         <lastmod>2025-06-02</lastmod>
+         <lastmod>2025-06-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
