@@ -43,5 +43,3 @@ jobs:
             aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
             bucket_name: ${{ secrets.S3_BUCKET_NAME }}
             region: ${{ secrets.AWS_REGION }}
-
-            
