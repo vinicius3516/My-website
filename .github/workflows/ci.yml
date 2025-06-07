@@ -29,3 +29,17 @@ jobs:
             - name: Verification
               run: |
                 mkdocs --version
+
+            - name: Build Site
+              run: |
+                mkdocs gh-deploy --force
+            
+    
+    deploy:
+        needs: build
+        uses: vinicius3516/devops-tools/.github/workflows/deploy-s3.yml@main
+        secrets:
+            aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            bucket_name: ${{ secrets.S3_BUCKET_NAME }}
+            region: ${{ secrets.AWS_REGION }}
